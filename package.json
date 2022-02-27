@@ -1,0 +1,17 @@
+{
+  "name": "Templates Plugin",
+  "description": "Custom templates plugin",
+  "version": "1.0.0",
+  "author": "Arsh Walker",
+  "repository": "https://github.com/ArshWalker/monokle-templates-plugin.git",
+  "monoklePlugin": {
+    "id": "com.github.ArshWalker.plugin.templates",
+    "helpUrl": "https://github.com/ArshWalker/monokle-templates-plugin.git",
+    "modules": [
+      {
+        "type": "template",
+        "path": "basic-pod-template"
+      }
+    ]
+  }
+}

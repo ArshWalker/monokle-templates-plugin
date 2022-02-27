@@ -1,0 +1,24 @@
+{
+  "name": "Basic Kubernetes Pod",
+  "id": "com.github.ArshWalker.plugin.templates.basic-pod-template",
+  "author": "Arsh Walker",
+  "version": "1.0.0",
+  "description": "Create a pod for specified image",
+  "repository": "",
+  "type": "vanilla",
+  "forms": [
+    {
+      "name": "Pod settings",
+      "description": "Specify the setting for your pod",
+      "schema": "form-schema.json",
+      "uiSchema": "form-ui-schema.json"
+    }
+  ],
+  "manifests": [
+    {
+      "filePath": "template.yaml"
+    }
+  ],
+  "resultMessage": "Pod resource created sucessfully!!!",
+  "helpUrl": "https://github.com/ArshWalker/monokle-templates-plugin.git"
+}
